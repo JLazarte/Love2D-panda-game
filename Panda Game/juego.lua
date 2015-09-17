@@ -14,7 +14,7 @@ girar = function (grados)
 	
 end
 
-calcularFisic = function()
+calcularFisica = function()
 
 
 end
