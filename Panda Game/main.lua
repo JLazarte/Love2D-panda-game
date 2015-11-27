@@ -55,8 +55,8 @@ function love.mousepressed(x, y, button)
 end
 
 function love.touchpressed(id, x, y, pressure)
-    mx = x * winWidth
-    my = y * winHeight
+    mx = x / winScale - translateX
+    my = y / winScale - translateY
     click(mx,my)
 end
 
